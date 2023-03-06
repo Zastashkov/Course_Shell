@@ -19,4 +19,4 @@ useradd -c "${COMMENT}" -m ${USER_NAME}
 echo ${PASSWORD} | passwd --stdin ${USER_NAME}
 
 # Force password change on first login.
-passwd -e ${USER_NAME}
+passwd -e ${USER_NAME} 
